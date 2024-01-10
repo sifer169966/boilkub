@@ -40,11 +40,12 @@ Before using it, let’s prepare the default configuration for convenient usage.
 cat <<EOF > ~/.boilkub/config/config
 contexts:
   - context:
-      project-url: https://example.com/golang-boilerplate.git
+      project-url: https://github.com/sifer169966/go-hexagonal.git
     name: go-hex
 current-context: go-hex
 EOF
 ```
+
 ## Usage
 
 #### Set boilerplate
